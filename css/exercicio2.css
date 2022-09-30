@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: grey;
+    height: 600px;
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.quadrados {
+    display: flex;
+    justify-content: space-between;
+}
+.quadrado, .circulo {
+    margin: 10px;
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+}
+.circulo {
+    border-radius: 50%;
+}
+.bg-azul {
+    background-color: blue;
+}
+.bg-laranja {
+    background-color: orange;
+}
+.topLeft {
+    align-self: flex-end;
+}
